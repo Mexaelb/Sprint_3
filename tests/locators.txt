@@ -1,0 +1,62 @@
+Страница регистрации
+https://stellarburgers.nomoreparties.site/register
+
+CSS_SELECTOR поля имя
+#root > div > main > div > form > fieldset:nth-child(1) > div > div > input
+
+CSS_SELECTOR поля имя
+"#root > div > main > div > form > fieldset:nth-child(2) > div > div > input"
+
+XPATH поля пароля
+"/html/body/div/div/main/div/form/fieldset[3]/div/div/input"
+
+XPATH кнопки регистрация
+"/html/body/div/div/main/div/form/button"
+
+XPATH алерт 'Некорректный пароль' при некорректном пароле
+"/html/body/div[1]/div/main/div/form/fieldset[3]/div/p")
+
+
+Страница логина
+https://stellarburgers.nomoreparties.site/login
+
+XPATH заголовка Вход
+"/html/body/div/div/main/div/h2[text() = 'Вход']"
+
+
+Главная страница
+
+XPATH кнопка личный кабинет
+"/html/body/div[1]/div/header/nav/a/p"
+
+XPATH кнопка 'Оформить заказ'
+"/html/body/div/div/main/section[2]/div/button"
+
+#переходим на соусы
+XPATH кнопка в меню соусы
+"/html/body/div[1]/div/main/section[1]/div[1]/div[2]"
+
+XPATH область раздела с соусами
+"/html/body/div[1]/div/main/section[1]/div[2]/h2[2]"
+
+XPATH кнопка в меню начинки
+"/html/body/div[1]/div/main/section[1]/div[1]/div[3]"
+
+XPATH область раздела с Начинки
+"/html/body/div[1]/div/main/section[1]/div[2]/h2[3]"
+
+XPATH кнопка в меню булочки
+"/html/body/div[1]/div/main/section[1]/div[1]/div[1]"
+
+XPATH область раздела с Булки
+"/html/body/div[1]/div/main/section[1]/div[2]/h2[1]"
+
+
+
+Личный кабинет
+
+XPATH кнопки конструктор
+/html/body/div[1]/div/header/nav/ul/li[1]/a/p
+
+XPATH логотипа в хэдере
+"/html/body/div[1]/div/header/nav/div/a"
