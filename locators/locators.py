@@ -1,11 +1,6 @@
 #все локаторы
 
-class all_locators:
-
-    page_main = "https://stellarburgers.nomoreparties.site"
-    page_login = 'https://stellarburgers.nomoreparties.site/login'
-    page_register = 'https://stellarburgers.nomoreparties.site/register'
-    page_forgot_password = 'https://stellarburgers.nomoreparties.site/forgot-password'
+class AllLocators:
 
     login_in_acc_button = "/html/body/div/div/main/section[2]/div/button"
     input_email = "/html/body/div/div/main/div/form/fieldset[1]/div/div/input"
